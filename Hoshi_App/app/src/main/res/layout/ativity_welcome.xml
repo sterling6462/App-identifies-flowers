@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#CEE5D0"
+
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <TextView
+            android:layout_width="300dp"
+            android:layout_height="wrap_content"
+            android:text="Chào mừng bạn đến với"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:textColor="#F38966"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="20dp"
+            ></TextView>
+        <TextView
+            android:layout_width="400dp"
+            android:layout_height="wrap_content"
+            android:text="Ứng dụng phân loại hoa dựa vào hình ảnh"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:textColor="#F38966"
+            android:textAlignment="center"
+            android:gravity="center"
+            android:textSize="20dp"
+            ></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hoshi Team"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"
+            android:textColor="#22705F"
+            android:gravity="center"
+            android:textSize="40dp"
+            ></TextView>
+
+        <ImageView
+            android:layout_width="350dp"
+            android:layout_height="300dp"
+            android:src="@drawable/team"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="40dp"/>
+
+        <Button
+            android:id="@+id/btn_start"
+            android:layout_width="350dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="Bắt đầu"
+            android:backgroundTint="#3E8E7E"
+            android:textColor="#E7E7DE"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textStyle="bold"></Button>
+
+
+
+
+    </LinearLayout>
+
+
+
+</LinearLayout>

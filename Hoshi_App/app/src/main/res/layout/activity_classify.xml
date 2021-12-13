@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ClassifyActivity"
+    android:orientation="vertical"
+    android:background="#FFF8D9">
+
+    <Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:title="NHẬN DIỆN CÁC LOẠI HOA"
+        android:titleTextColor="#ffffff"
+        android:background="#5AA897"
+        android:minHeight="?actionBarSize"
+        android:theme="?actionBarTheme"
+
+        ></Toolbar>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chọn ảnh cần nhận diện nhé"
+        android:textSize="20dp"
+        android:textColor="#45526C"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        />
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"/>
+
+    <Button
+        android:id="@+id/bt_addImage"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:text="Thêm ảnh"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#F8A488"
+        android:textColor="#45526C"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kết quả"
+        android:textSize="20dp"
+        android:textColor="#45526C"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"/>
+
+    <ListView
+        android:id="@+id/lv_predict"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="10dp"
+        android:cacheColorHint="#5AA897"
+
+        />
+
+</LinearLayout>
